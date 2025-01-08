@@ -24,10 +24,10 @@ public class LocatorsStrategies {
         WebElement playButton = driver.findElement(By.cssSelector("div .bi-play-fill"));
 
         // or by id
-        playButton = driver.findElement(By.id("#masterPlay"));
+        playButton = driver.findElement(By.id("masterPlay"));
 
         // locate element by name
-        WebElement textFields = driver.findElement(By.name("searchText"));
+        //  WebElement textFields = driver.findElement(By.name("searchText"));
 
         // locate by link text
         WebElement myLibraryPageLink = driver.findElement(By.linkText("My Library"));
